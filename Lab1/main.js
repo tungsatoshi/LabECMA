@@ -43,18 +43,8 @@
 // console.log('Giá trị lớn thứ 2 là: ', max2);
 
 // Array data-type
-// Bài 1:
-let classRoom = [
-  "nguyễn tiến duẩn",
-  "Hoàng Xuân Hiếu",
-  "Hồ Sỹ Hưng",
-  "Nguyễn Đức Thuận",
-  "đoàn Minh Tùng",
-  "Hồ Sỹ Hùng",
-  "Lê Trung Hiếu",
-  "đoàn vua dep trai vua hoc gioi Hữu Quý",
-];
 
+/////////////////////////////////////////////////////////
 //Bai 1
 
 document.querySelector(".convert").addEventListener("click", function () {
@@ -82,7 +72,20 @@ document.querySelector(".convert").addEventListener("click", function () {
   // console.log("\nResult: ", camelCase);
 });
 
+/////////////////////////////////////////////////////////
 //Bai 2
+
+let classRoom = [
+  "nguyễn tiến duẩn",
+  "Hoàng Xuân Hiếu",
+  "Hồ Sỹ Hưng",
+  "Nguyễn Đức Thuận",
+  "đoàn Minh Tùng",
+  "Hồ Sỹ Hùng",
+  "Lê Trung Hiếu",
+  "đoàn vua dep trai vua hoc gioi Hữu Quý",
+];
+
 console.log("Bai 2");
 // Câu 1: Tach ten va ho rieng
 console.log(" 1: Tách họ và tên");
